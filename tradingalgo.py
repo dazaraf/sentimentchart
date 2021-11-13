@@ -123,4 +123,4 @@ sentiment_fig.add_trace(
     )
 sentiment_fig.update_layout(title = 'Reddit Sentiment(blue) vs Bitcoin Price(red)', titlefont_size=32)
 
-plot(sentiment_fig)
+plot(sentiment_fig, filename = str(start_timestamp) + ".html")
